@@ -1,0 +1,19 @@
+set relativenumber
+""" Plugins -------------------------------------------------------------
+set NERDTree
+set surround
+
+set which-key
+set timeoutlen = 5000
+
+nnoremap <C-E> :NERDTreeFocus<CR>
+nnoremap <C-t> :NERDTreeToggle<CR>
+inoremap jk <ESC>
+
+""" Disabling arrow keys in insert mode -------------------------------
+nnoremap <UP> <NOP>
+nnoremap <DOWN> <NOP>
+nnoremap <RIGHT> <NOP>
+nnoremap <LEFT> <NOP>
+
+
