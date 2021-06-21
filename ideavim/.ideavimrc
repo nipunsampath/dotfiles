@@ -17,4 +17,5 @@ nnoremap <DOWN> <NOP>
 nnoremap <RIGHT> <NOP>
 nnoremap <LEFT> <NOP>
 
-
+""" Copy & Paste to System Clipboards
+set clipboard=unnamedplus
