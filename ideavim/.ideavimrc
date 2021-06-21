@@ -1,6 +1,7 @@
-set number
-set relativenumber
-""" Plugins -------------------------------------------------------------
+""" Include .vimrc 
+source ~/.vimrc
+
+""" Plugins 
 set NERDTree
 set surround
 
@@ -9,13 +10,3 @@ set timeoutlen = 5000
 
 nnoremap <C-E> :NERDTreeFocus<CR>
 nnoremap <C-t> :NERDTreeToggle<CR>
-inoremap jk <ESC>
-
-""" Disabling arrow keys in insert mode -------------------------------
-nnoremap <UP> <NOP>
-nnoremap <DOWN> <NOP>
-nnoremap <RIGHT> <NOP>
-nnoremap <LEFT> <NOP>
-
-""" Copy & Paste to System Clipboards
-set clipboard=unnamedplus
