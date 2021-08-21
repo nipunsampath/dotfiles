@@ -14,3 +14,7 @@ set clipboard=unnamedplus
 
 """ map escape to jk
 inoremap jk <ESC>
+
+""" settings for search
+set hlsearch
+set incsearch
