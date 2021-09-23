@@ -5,6 +5,9 @@ source ~/.vimrc
 set NERDTree
 set surround
 
+set ideajoin
+set idearefactormode=keep
+
 set which-key
 set timeoutlen = 5000
 

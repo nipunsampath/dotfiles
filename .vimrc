@@ -2,6 +2,9 @@
 set number
 set relativenumber
 
+""" Scrolling
+set scrolloff=5
+
 
 """ Disabling arrow keys in insert mode 
 nnoremap <UP> <NOP>
@@ -18,3 +21,5 @@ inoremap jk <ESC>
 """ settings for search
 set hlsearch
 set incsearch
+set ignorecase
+set smartcase
