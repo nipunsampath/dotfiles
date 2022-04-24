@@ -8,8 +8,8 @@ set surround
 set ideajoin
 set idearefactormode=keep
 
-set which-key
-set timeoutlen = 5000
-
-nnoremap <C-E> :NERDTreeFocus<CR>
 nnoremap <C-t> :NERDTreeToggle<CR>
+
+
+""" clear highlighted search
+nnoremap <space><space> :noh<cr>
